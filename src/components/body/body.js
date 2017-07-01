@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
 import Header from '../header/header';
 import ContentPage from './content';
@@ -14,10 +14,9 @@ export default class Body extends React.Component {
   render() {
     return (
       <div className="App-body">
-      <Header />
-      <ContentPage />
-      <Footer />
-
+          <Header />
+          <ContentPage />
+          <Footer />
       </div>
 
     );

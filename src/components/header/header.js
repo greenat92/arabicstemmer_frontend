@@ -1,6 +1,7 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+//import PropTypes from 'prop-types';
 
+import './header.css'
 export default class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -10,20 +11,10 @@ export default class Header extends React.Component {
   render() {
     return (
       <div className="App-header">
-              <div className="App-wraper">
-                    <div className="App-logo-space">
-                        <a>
-                          <img src="" className="App-logo" />
-                          <div className="App-title"> </div>
-                        </a>
-                    </div>
-                    <ul className="App-menu">
-                    <li className="App-item"><a>Code</a></li>
-                    <li className="App-item"><a>Corpura</a></li>
-                    </ul>
-          </div>
-      </div>
-
+           <div className="App-title">
+                   <h2>Snowball Aarabic Stemmer</h2>
+           </div>
+    </div>
     );
   }
 }
