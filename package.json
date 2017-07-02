@@ -29,6 +29,7 @@
     "babel-preset-stage-1": "^6.24.1",
     "enzyme": "^2.9.1",
     "jest": "^20.0.4",
+    "react-autocomplete-cli": "0.0.3",
     "react-scripts": "1.0.7",
     "react-test-renderer": "^15.6.1",
     "redux-devtools": "^3.4.0",
