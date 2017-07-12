@@ -1,30 +1,14 @@
 Arabic-Stemmer_frontend
-=======================================
+=======================
 
 # Install
-* `npm install`
-
-Or
-
-* `yarn`
+* ` $ npm install` alternative  ` $ yarn`
 
 # Run
-* `npm start`
-
-Or
-
-* `yarn start`
+* ` $ npm start` alternative  ` $ yarn start`
 
 # Test
-* `npm test`
-
-Or
-
-* `yarn test`
+* ` $ npm test` alternative ` $ yarn test`
 
 # Build
-* `npm build`
-
-Or
-
-* `yarn build`
+* ` $ npm run build` alternative  `$ yarn build`
