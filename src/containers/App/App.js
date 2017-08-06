@@ -6,7 +6,7 @@ import {deepOrange500} from 'material-ui/styles/colors';
 
 
 // import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 
 import Body from './../../components/body/body'
 
