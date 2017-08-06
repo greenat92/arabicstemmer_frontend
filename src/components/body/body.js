@@ -1,9 +1,9 @@
 import React from 'react';
 //import PropTypes from 'prop-types';
 
-import Header from '../header/header';
+//import Header from '../header/header';
 import ContentPage from './content';
-import Footer from '../footer/footer';
+//import Footer from '../footer/footer';
 
 export default class Body extends React.Component {
   constructor(props) {
@@ -13,10 +13,8 @@ export default class Body extends React.Component {
   }
   render() {
     return (
-      <div className="App-body">
-          <Header />
+      <div className="container" id="wrap">
           <ContentPage />
-          <Footer />
       </div>
 
     );
