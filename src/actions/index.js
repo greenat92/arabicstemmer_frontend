@@ -5,9 +5,12 @@ export const stemmingText = (text) => {
     const request = axios({
     method: 'post',
     data: {text: text},
+    dataType: 'jsonp',
     baseURL: 'https://floating-wildwood-94447.herokuapp.com/text/',
-    headers: {'Access-Control-Allow-Origin': '*'},
-
+    crossDomain : true,
+    headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+    },
     })
     return {
      type: STEMMING_TEXT,
