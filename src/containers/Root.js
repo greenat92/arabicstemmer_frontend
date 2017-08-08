@@ -1,16 +1,18 @@
+
+// TODO: integrating DevTools 
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import PropTypes from 'prop-types';
 import { Provider } from 'react-redux';
 
-import App from './App/App';
+import App from './AppStem';
 import DevTools from './DevTools';
 
 const Root = ({}) => (
   <MuiThemeProvider>
      <Provider store={store}>
        <div>
-         <App />
+         <AppStem />
          <DevTools />
        </div>
      </Provider>

@@ -1,9 +1,9 @@
 import React from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 
-import StemForm from '../components/StemForm'
-import StemmerResult from '../components/StemmerResult'
-import {  stemmingText  } from '../actions'
+import StemForm from '../components/StemForm';
+import StemmerResult from '../components/StemmerResult';
+import {  stemmingText  } from '../actions';
 
 const mapStateToProps = (state) => ({
     stemResults: state.AppStems,

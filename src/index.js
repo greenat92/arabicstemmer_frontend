@@ -12,7 +12,7 @@ import registerServiceWorker from './registerServiceWorker';
 const appStemHTML = document.getElementById("stemApp");
 ReactDOM.render(
         <Provider store={store}>
-        <App />
+            <App />
         </Provider>,
        appStemHTML
    );
