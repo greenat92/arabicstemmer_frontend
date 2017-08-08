@@ -1,14 +1,20 @@
-Arabic-Stemmer_frontend
+Arabic Stemmer frontend
 =======================
 
-# Install
-* ` $ npm install` alternative  ` $ yarn`
+## Install
+* ` $ npm install or $ yarn`
 
-# Run
-* ` $ npm start` alternative  ` $ yarn start`
+## Run
+* ` $ npm start or $ yarn start`
 
-# Test
-* ` $ npm test` alternative ` $ yarn test`
+## Test
+* ` $ npm test or $ yarn test`
 
-# Build
-* ` $ npm run build` alternative  `$ yarn build`
+## Build
+* ` $ npm run build or $ yarn build`
+
+## Deployment
+We are using [Heroku] for deployment, see [deployment section](https://github.com/LBenzahia/arabicstemmer_frontend/blob/master/readme_create_react_app.md#heroku).
+
+## Others:
+- For more infos see [create_react_app](https://github.com/LBenzahia/arabicstemmer_frontend/blob/master/readme_create_react_app.md).
