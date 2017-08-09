@@ -1,17 +1,10 @@
-import axios from 'axios'
+
+import { stemTextApi } from './../utils/apis/StemApi'
 
 export const STEMMING_TEXT = "STEMMING_TEXT";
+
 export const stemmingText = (text) => {
-    const request = axios({
-    method: 'post',
-    data: {text: text},
-    dataType: 'jsonp',
-    baseURL: 'https://floating-wildwood-94447.herokuapp.com/text/',
-    crossDomain : true,
-    headers: {
-        'Content-Type': 'application/x-www-form-urlencoded'
-    },
-    })
+    const request = stemTextApi(text)
     return {
      type: STEMMING_TEXT,
      payload : request
