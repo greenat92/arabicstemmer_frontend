@@ -1,0 +1,2 @@
+
+export const STEMMING_TEXT = "STEMMING_TEXT";
