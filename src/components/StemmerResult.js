@@ -1,6 +1,8 @@
 import React from 'react'
+
 import Stem from './Stem'
 import Stats from './Stats'
+
 const StemmerResult = ({
 
 results

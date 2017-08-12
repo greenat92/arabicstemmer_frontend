@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import Stats from './../Stats';
 
 it('renders without crashing', () => {
