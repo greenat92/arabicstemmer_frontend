@@ -24,16 +24,17 @@ class AppStem extends React.Component {
         this.ftechStems = this.ftechStems.bind(this);
         this.fileHandler = this.fileHandler.bind(this);
     }
+
     handleChange(event) {
     this.setState({value: event.target.value});
     }
+
     ftechStems(event){
      var list = this.state.value
      this.props.dispatch(stemmingText(list));
     }
 
     fileHandler(event){
-
          var file = event.target.files[0];
 //         console.log(file)
          var textType = /text.*/;
@@ -52,6 +53,7 @@ class AppStem extends React.Component {
             }
          }
     }
+    
     render(){
 
       return(
