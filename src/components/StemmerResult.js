@@ -8,10 +8,8 @@ const StemmerResult = ({
 results
 
 }) => {
-     //fix the problem of statistics
      var stems = [];
-
-     // fix the prblm of stems duplication
+     
      results.map(r => r.map((t) => {
          if(!(t.stem in stems)){
              stems[t.stem]=[t.word];

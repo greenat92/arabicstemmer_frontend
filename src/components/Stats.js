@@ -8,7 +8,6 @@ const Stats = ({
  ratio
 
 }) => {
-    //TODO: STATS STYLE
     return(
 
     <span id="stats">

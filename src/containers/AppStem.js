@@ -9,11 +9,7 @@ const mapStateToProps = (state) => ({
     stemResults: state.AppStems,
 })
 
-
-
-
 class AppStem extends React.Component {
-
     constructor(porps){
         super(porps);
         this.state = {
@@ -36,9 +32,7 @@ class AppStem extends React.Component {
 
     fileHandler(event){
          var file = event.target.files[0];
-//         console.log(file)
          var textType = /text.*/;
-         //TODO: test about size file
          if (file.type.match(textType) && file.size <= 10000){
             var reader = new FileReader();
             reader.onload = (e) => {
@@ -53,7 +47,7 @@ class AppStem extends React.Component {
             }
          }
     }
-    
+
     render(){
 
       return(
