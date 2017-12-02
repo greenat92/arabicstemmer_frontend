@@ -3,13 +3,9 @@ import React from 'react'
 import Stem from './Stem'
 import Stats from './Stats'
 
-const StemmerResult = ({
-
-results
-
-}) => {
+const StemmerResult = ({results}) => {
      var stems = [];
-     
+
      results.map(r => r.map((t) => {
          if(!(t.stem in stems)){
              stems[t.stem]=[t.word];

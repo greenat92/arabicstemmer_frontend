@@ -5,7 +5,7 @@ import { BASE_URL } from './BaseUrl'
 const URL_STEM_TEXT_API = `${BASE_URL}/text/`
 
 export const  stemTextApi = (text) => {
-    const request = axios({
+    const response = axios({
     method: 'post',
     data: {text: text},
     dataType: 'jsonp',
@@ -15,5 +15,5 @@ export const  stemTextApi = (text) => {
         'Content-Type': 'application/x-www-form-urlencoded'
     },
     })
-    return request;
+    return response;
 }
