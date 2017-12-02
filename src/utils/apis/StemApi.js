@@ -1,11 +1,15 @@
 import axios from 'axios';
 
+import { BASE_URL } from './BaseUrl'
+
+const URL_STEM_TEXT_API = `${BASE_URL}/text/`
+
 export const  stemTextApi = (text) => {
     const request = axios({
     method: 'post',
     data: {text: text},
     dataType: 'jsonp',
-    baseURL: 'https://floating-wildwood-94447.herokuapp.com/text/',
+    baseURL: URL_STEM_TEXT_API,
     crossDomain : true,
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded'
