@@ -17,4 +17,4 @@ Arabic Stemmer frontend
 We are using [Heroku](https://heroku.com/) for deployment, see [deployment section](https://github.com/LBenzahia/arabicstemmer_frontend/blob/master/readme_create_react_app.md#heroku).
 
 ## Others:
-- For more infos see [create_react_app](https://github.com/LBenzahia/arabicstemmer_frontend/blob/master/readme_create_react_app.md).
+- For more information see [create_react_app](https://github.com/LBenzahia/arabicstemmer_frontend/blob/master/readme_create_react_app.md).
